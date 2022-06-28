@@ -378,7 +378,7 @@ ul {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
   .nav-main{
     margin: 0 auto;
   }

@@ -250,7 +250,7 @@ ul {
 }
 
 .links a {
-  margin: 0 30px;
+  margin: 0 20px;
 }
 
 .links a i {
@@ -378,7 +378,9 @@ ul {
 }
 
 @media (max-width: 500px) {
-
+  .nav-main{
+    margin: 0 auto;
+  }
   .showcase {
     grid-template-columns: 1fr;
   }
@@ -397,10 +399,10 @@ ul {
   .cards-banner-one .content,
   .cards-banner-two .content {
     width: 100%;
-    padding: 60px 20px;
+    padding: 60px 10px;
   }
   .footer-links .footer-container {
-    margin-top: 20px;
+    margin: 0 auto;
     grid-template-columns: 1fr;
   }
 
